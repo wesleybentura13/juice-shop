@@ -1,4 +1,4 @@
-FROM node:erbium-buster
+FROM node:18-buster
 
 RUN apt-get -y update && apt-get -y install ca-certificates apt-transport-https
 
